@@ -43,6 +43,10 @@ INSTALLED_APPS = [
 
     # local
     'apps.test_models.apps.TestModelsConfig',
+    'apps.tasks.apps.TasksConfig',
+    'apps.subtasks.apps.SubtasksConfig',
+    'apps.categories.apps.CategoriesConfig',
+    'apps.statuses.apps.StatusesConfig',
 ]
 
 MIDDLEWARE = [
